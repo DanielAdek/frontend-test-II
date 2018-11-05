@@ -1,0 +1,8 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./jc-dela-cuesta-304543-unsplash.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+}
