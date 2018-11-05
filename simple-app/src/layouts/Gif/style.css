@@ -1,0 +1,42 @@
+.container {
+    border: 1px solid #ccc;
+    width: 50%;
+    height: 500px;
+    box-shadow: 4px 4px 2px #ccc;
+    display: grid;
+    grid-template-rows: 4rem auto fit-content(8rem);
+    margin: 50px auto;
+    max-width: 25rem;
+    min-width: 25rem;
+}
+
+.header {
+    background: linear-gradient(#9f15ac, #db6cf7);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlink {
+    margin: 0 10px;
+}
+
+.text-area {
+    padding: 1.2rem;
+    text-align: right;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    overflow: auto;
+    margin: 10px 10px;
+}
