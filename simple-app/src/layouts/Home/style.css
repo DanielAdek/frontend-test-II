@@ -1,8 +1,45 @@
 .home-container {
+    display: grid;
+    grid-template-rows: 4rem auto fit-content(4rem);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('./jc-dela-cuesta-304543-unsplash.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.button-section-home {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('./jc-dela-cuesta-304543-unsplash.jpg');
-    height: 100vh;
-    background-repeat: no-repeat;
+}
+
+.home_header {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px;
+}
+
+.home_header > div {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.nav_home a {
+    margin: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.nav_home a:hover {
+    color: #ccc;
+}
+
+footer {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
