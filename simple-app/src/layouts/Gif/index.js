@@ -55,6 +55,7 @@ class Gif extends Component {
             <div key={i}>
               <img
                 src={`${image}`}
+                alt="gif"
                 className="gifImage"
               />
             </div>
