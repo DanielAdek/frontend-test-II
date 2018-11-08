@@ -2,6 +2,8 @@
 
 ### Devcenter Frontend Developer Test II
 
+[![Build Status](https://travis-ci.org/DanielAdek/frontend-test-II.svg?branch=develop)](https://travis-ci.org/DanielAdek/frontend-test-II) [![Coverage Status](https://coveralls.io/repos/github/DanielAdek/frontend-test-II/badge.svg?branch=develop)](https://coveralls.io/github/DanielAdek/frontend-test-II?branch=develop)
+
 The purpose of this test is not only to quickly gauge an applicant's abilities with working with APIs, but also their approach to development.
 
 Applicants may use whatever frontend techniques they want to achieve the outcome.
